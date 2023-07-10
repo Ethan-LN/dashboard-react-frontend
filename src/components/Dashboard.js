@@ -1,11 +1,12 @@
 import React from 'react'
 import RadarCharts from './RadarCharts'
+import TreeMapCharts from './TreeMapCharts'
 
 export const Dashboard = () => {
   return (
-    <div>
-      Dashboard
+    <div className='dashBoard'>
       <RadarCharts />
-    </div>
+      <TreeMapCharts />
+    </div> 
   )
 }
